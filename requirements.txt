@@ -1,9 +1,9 @@
-
+streamlit==1.37.0
+transformers==4.31.0
+torch==2.4.0
 pandas
 numpy
 scikit-learn
 nltk
-streamlit==1.37.0
-transformers
-torch
+
 
