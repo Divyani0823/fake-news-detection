@@ -22,6 +22,7 @@
 #     stemmed_content = ' '.join(stemmed_content)
 #     return stemmed_content
 
+import streamlit as st
 import numpy as np
 import pandas as pd
 import re
@@ -44,6 +45,7 @@ generated_text = generate_text(prompt)
 print("Generated Text:", generated_text)
 
 # If you want to evaluate or use this for further purposes, you can integrate it as needed
+
 
 # Streamlit interface
 st.title('Fake News Detection')
